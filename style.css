@@ -1,0 +1,100 @@
+@font-face {
+  font-family: Furore;
+  src: url(Furore.otf);
+}
+
+/* Overall styling */
+div {
+    font-size: 20px;
+    background-image: url(background.png);
+    background-size: 100%;
+    color: snow;
+    font-family: Furore;
+}
+
+/*title bar styling */
+#tasklist {
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    border: 3px groove #fff;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    transform: translateX(50px);
+    padding: 7px;
+    width:fit-content;
+}
+
+/*inputted task title bars*/
+#gaz {
+    text-align: center;
+    padding: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 3px groove #fff;
+    border-radius: 10px 10px 0px 0px;
+}
+#chat {
+    text-align: center;
+    padding: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 3px groove #fff;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/*inputted tasks section*/
+#gtasks {
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border: 2px groove #fff;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 5px;
+}
+#cuser {
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px groove #fff;
+}
+#ctasks {
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    border: 2px groove #fff;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 5px;
+}
+
+#helptitle {
+    text-align: center;
+    padding: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 3px groove #fff;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#help {
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px groove #fff;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 5px;
+}
