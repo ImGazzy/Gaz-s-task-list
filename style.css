@@ -76,6 +76,7 @@ div {
     border: 2px groove #fff;
     border-radius: 0px 0px 10px 10px;
     margin-bottom: 5px;
+    
 }
 
 #helptitle {
@@ -97,4 +98,5 @@ div {
     border: 2px groove #fff;
     border-radius: 0px 0px 10px 10px;
     margin-bottom: 5px;
+    text-align: center;
 }
